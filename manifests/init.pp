@@ -10,7 +10,7 @@ class pbg_chrony {
     require => Package['chrony'],
   }
 
-  if $facts['os']['familyi'] == 'RedHat' {
+  if $facts['os']['family'] == 'RedHat' {
     service { 'chrony':
       ensure => running,
       enable => true,
