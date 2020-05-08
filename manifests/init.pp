@@ -6,7 +6,7 @@ class pbg_chrony {
   file { '/etc/chrony.conf':
     ensure  => present,
     source  => 'puppet:///modules/pbg_chrony/chrony.conf',
-    notify  => Service['notify'],
+    notify  => Service['chrony'],
     require => Package['chrony'],
   }
 
