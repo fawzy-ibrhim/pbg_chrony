@@ -14,7 +14,7 @@
     {
       "operatingsystem": "Ubuntu",
       "operatingsystemrelease": [ "16.04" ]
-    }
+    },
     {
       "operatingsystem": "CentOS",
       "operatingsystemrelease": [ "7.0" ]
